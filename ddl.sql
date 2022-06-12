@@ -1,0 +1,7 @@
+USE nodedb;
+DROP TABLE IF EXISTS posts;
+CREATE TABLE IF NOT EXISTS posts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255),
+    body VARCHAR(255)
+);
